@@ -1,0 +1,65 @@
+$style:#654e5e;
+$para:#404040;
+@mixin commonTraits {
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    padding: 10px;
+}
+@mixin customBorder ($width: 1px, $color: black, $style: solid) {
+    border: {
+        width: $width;
+        color: $color;
+        style: $style;
+    }
+}
+h4 {
+    @include customBorder(3px, blue, solid);
+}
+
+#mypara {
+    color: $para ;
+    border: 1px solid $para;
+    padding: 10px;
+    margin: 20px 50px;
+    &:hover {
+        color: red;
+    }
+}
+p{
+    text-align: justify;
+    padding: 0 40px;
+    font-family: Aharoni Algerian Andalus;
+    font-size: medium;
+	
+}
+#head{
+    color: $style;
+    
+}
+
+h4{
+    padding: 0 20px;
+}
+img{
+    padding: 0 50px;
+}
+h3{
+ background-color: lighten($style, 50%);
+  border: 1px solid darken($style, 10%);
+  color: $style;}
+  
+#id1{
+	color:$style;
+
+}
+
+
+header {
+    color: #274D87;
+    @include commonTraits;
+}
+
+footer {
+    color: #3264AF;
+    @include commonTraits;
+}

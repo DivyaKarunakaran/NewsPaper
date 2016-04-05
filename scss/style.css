@@ -1,0 +1,49 @@
+h4 {
+  border-width: 3px;
+  border-color: blue;
+  border-style: solid; }
+
+#mypara {
+  color: #404040;
+  border: 1px solid #404040;
+  padding: 10px;
+  margin: 20px 50px; }
+  #mypara:hover {
+    color: red; }
+
+p {
+  text-align: justify;
+  padding: 0 40px;
+  font-family: Aharoni Algerian Andalus;
+  font-size: medium; }
+
+#head {
+  color: #654e5e; }
+
+h4 {
+  padding: 0 20px; }
+
+img {
+  padding: 0 50px; }
+
+h3 {
+  background-color: #ded4db;
+  border: 1px solid #483843;
+  color: #654e5e; }
+
+#id1 {
+  color: #654e5e; }
+
+header {
+  color: #274D87;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  padding: 10px; }
+
+footer {
+  color: #3264AF;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */
